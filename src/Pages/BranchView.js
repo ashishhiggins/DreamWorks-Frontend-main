@@ -36,7 +36,7 @@ const apiUrl = "http://13.126.238.255:8000/apis/branch_list";
 const handleClick = (bid) => {
       window.localStorage.setItem("selectedBranchId", bid);
       window.dispatchEvent(new Event("storage")); 
-      window.location.href = "http://localhost:3000/staff-view";
+      window.location.href = "/staff-view";
 };
 
 
