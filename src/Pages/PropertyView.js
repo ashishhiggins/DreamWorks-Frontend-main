@@ -32,7 +32,7 @@ function BranchForm() {
   const handleClick = (pid) => {
     window.localStorage.setItem("selectedPropertyId", pid);
     window.dispatchEvent(new Event("storage")); 
-    window.location.href = "http://localhost:3000/property-detail";
+    window.location.href = "/property-detail";
 };
 
 
